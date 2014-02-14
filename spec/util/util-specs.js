@@ -1,3 +1,4 @@
+  'use strict'
   describe("Implementing revealing module pattern", function() {
     beforeEach(function(){
       sinon.spy($, 'ajax')
